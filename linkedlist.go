@@ -72,4 +72,6 @@ func main() {
 	mylist.printListData()
 	mylist.deleteWithValue(100)
 	mylist.printListData()
+	emptyList := linkedList{}
+	emptyList.deleteWithValue(2)
 }
