@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//go run order/bubblesort.go
 //example:  https://www.youtube.com/watch?v=8RkZoBZNNgI
 
 func main() {
