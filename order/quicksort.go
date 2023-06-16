@@ -11,7 +11,7 @@ var input = []int{48, 9, 86, 32, 68, 57} //, 82, 63, 70, 37, 34, 83, 27, 19, 97,
 func main() {
 	fmt.Println("Unsorted:", input)
 	QuickSort(input)
-	fmt.Println("Sorted:", input)
+	fmt.Println("Sorted:  ", input)
 }
 
 func QuickSort(input []int) {

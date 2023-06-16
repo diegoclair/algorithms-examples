@@ -29,5 +29,5 @@ func BubbleSort(input []int) {
 			break
 		}
 	}
-	fmt.Println("Sorted:", input)
+	fmt.Println("Sorted:  ", input)
 }
