@@ -1,4 +1,4 @@
-package main
+package list
 
 import "fmt"
 
@@ -15,7 +15,7 @@ type linkedList struct {
 	length int
 }
 
-//prepend - add a node to the begining of the linked list
+// prepend - add a node to the begining of the linked list
 func (l *linkedList) prepend(n *node) {
 	second := l.head
 	l.head = n
@@ -53,7 +53,7 @@ func (l linkedList) printListData() {
 	fmt.Printf("\n")
 }
 
-func main() {
+func LinkedList() {
 	mylist := linkedList{}
 	node1 := &node{data: 48}
 	node2 := &node{data: 18}
