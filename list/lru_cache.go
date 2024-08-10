@@ -6,7 +6,7 @@ import (
 )
 
 func LruCache() {
-	resp := Constructor(3)
+	resp := NewLruCache(3)
 	resp.Put(1, 1)
 	fmt.Println("Add 1,1: ")
 	resp.Print()
@@ -48,7 +48,7 @@ type LRUCache struct {
 	linkList *list.List
 }
 
-func Constructor(capacity int) LRUCache {
+func NewLruCache(capacity int) LRUCache {
 	return LRUCache{
 		capacity: capacity,
 		cache:    make(map[int]*list.Element, capacity),
